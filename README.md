@@ -1,18 +1,63 @@
-# React + Vite
+# Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive digital business card application built with React and Vite. This project serves as a personal portfolio component, displaying contact information and social media links in a clean, modern card layout.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Profile Display**: Showcases profile picture and key details.
+- **Social Integration**: Direct links to social media platforms (GitHub, LinkedIn, Twitter, etc.).
+- **Responsive Design**: Optimized for various screen sizes.
+- **Component-Based Architecture**: Modular structure using React components.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- [React](https://react.dev/) (v19)
+- [Vite](https://vitejs.dev/)
+- CSS3
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your system.
+
+### Installation
+
+1. Clone the repository (if applicable) or navigate to the project directory:
+   ```bash
+   cd digital-business-card
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Usage
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173` (or the port shown in the terminal) to view the application.
+
+## Available Scripts
+
+- `npm run dev`: Starts the development server with Hot Module Replacement (HMR).
+- `npm run build`: Builds the app for production to the `dist` folder.
+- `npm run preview`: Locally previews the production build.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+
+## Project Structure
+
+```text
+src/
+├── assets/          # Images and icons
+├── components/      # React components (Card, Header, Footer, etc.)
+├── App.jsx          # Main application component
+└── main.jsx         # Entry point
+```

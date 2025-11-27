@@ -36,7 +36,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   max-width: 317px;
-  margin: 48px;
+  margin: 24px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
